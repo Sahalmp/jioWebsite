@@ -1,0 +1,183 @@
+header
+{
+     background-color: #2353C9;
+}
+.wrapper{
+    color: #ffffff;
+    margin-left: 17%;
+    margin-right: 17%;
+    font-family: JioType,helvetica,arial,sans-serif;
+
+}
+
+
+header .container{
+
+    margin-right:17%;
+    margin-left: 17%;
+}
+@media (max-width: 978px) {
+   header .container {
+      padding:0;
+      margin:2%;
+    }
+}
+@media (max-width: 978px) {
+    .wrapper {
+       padding:0;
+       margin:2%;
+     }
+ }
+
+nav .navbar-nav li a{
+    color: white !important;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 700;
+    }
+.mysearch{
+    height: 36px;
+}
+.mysearch input{
+    background-color: #143485;
+    color: white;
+    border: none;
+}
+.mysearch input::placeholder{
+    color: white;
+}
+
+.secondnav{
+    background-color: #143485;
+
+}
+.active {
+    color: white;
+    border-bottom: 3px solid #ffffff;
+
+}
+.secondnav nav a{
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+
+ @media (max-width: 1478px) {
+    .myhero .card-title {
+        font-size: 2rem;
+
+     }
+ }
+
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ .text_div{
+     background-color: #2353C9;
+ }
+ @media (max-width:768px){
+    *{
+        overflow-x: hidden;
+    }
+
+ }
+
+
+
+
+
+ .carousel-indicators [data-bs-target] {
+     background-color: #2353C9;
+     position: relative;
+     top: 25px;
+     padding: 2px;
+     border-radius: 50%;
+     height: 10px;
+     width: 10px;
+ }
+ .myhero .card img{
+     min-height: 400px;
+     max-height: 400px;
+ }
+
+.myhero .card-title {
+    font-weight: 900;
+
+}
+.myhero .card-text {
+    color: rgb(161, 161, 161);
+
+}
+.nround{
+border-radius: 20px;
+}
+
+
+.butsection .btn{
+    border: 0.5px solid #c3c4c49c;
+    color: #143485;
+    font-weight: 600;
+
+
+
+}
+@media (max-width: 768px) {
+    .butsection .btn {
+        width: 100%;
+        margin-top: 0.5em;
+
+
+     }
+ }
+
+ .sechead{
+     font-weight: 900;
+     text-shadow: 0px 1px, 1px 0px, 1px 0px;
+ }
+ .card-headbox{
+     background-color: #175590;
+     color: #ffffff;
+     font-weight: 900;
+     font-size: 0.8rem;
+
+
+
+
+ }
+ .section2 .card{
+     background-color:#E7EBF8 ;
+     color: black;
+     font-weight: 900;
+     border: none;
+     border-radius:5% ;
+
+
+ }
+ table .btn-primary{
+     background-color: #2353C9;
+ }
+
+ footer li{
+    color: black;
+    text-decoration: none;
+    font-size: .775rem;
+     padding-bottom: 8px;
+     padding-top: 8px;
+ }
+ footer{
+     background-color: #F5F5F5;
+ }
+ footer .container{
+     margin-left: 17%;
+     margin-right: 17%;
+ }
+ footer h4{
+     font-size: 1rem;
+     font-weight: 900;
+ }
